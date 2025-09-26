@@ -30,7 +30,8 @@ train = GaussianTrain(X, P, S, M)
 toa = ArrivalTime(train)
 toa.visualize(numPoints, tLim, xLim, 0)
 ```
-with `numPoints` the number of samples and `tLim, xLim` the temporal and spatial domain, respectively.
+with `numPoints` the number of samples and `tLim, xLim` the temporal and spatial domain, respectively.<br><br>
+<img src="https://github.com/simoneroncallo/quantum-arrival-time/blob/main/images/single.png"/>
 
 ## Structure
 This repository has the following structure
